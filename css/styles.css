@@ -5,37 +5,44 @@
     font-family: "YS_Text";
     font-style: normal;
     font-display: swap;
-    src:url("https://yastatic.net/s3/home/fonts/ys/4/text-black.woff");
+    src:url("https://yastatic.net/s3/home/fonts/ys/4/text-black.woff") format('woff');
     font-weight: 900;
 }
 @font-face {
     font-family: "YS_Text";
     font-style: normal;
-    src:url("https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff");
+    src:url("https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff") format('woff');
     font-weight: 500;
 }
 @font-face {
     font-family: "YS_Text";
     font-style: normal;
-    src:url("https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff");
+    src:url("https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff") format('woff');
     font-weight: 400;
 }
 body{
     background-color: #FFFFFF;
     font-family: "YS_Text", sans-serif;
-    margin-left: 262px;
-    /* display: flex;
-    justify-content: center; */
+    /* margin-left: 61.5px; */
+    /* display: flex; */
+    /* justify-content: center;  */
 }
 .container{
     max-width: 1440px;
-    width: 100%;
-    /* margin-left: 262px; */
-    max-height: 1204px;
+    margin: auto;
+    max-height: 804px;
+    justify-content: center;
 }
+.wrapper{
+    float: left;
+    max-width: 542px;
+    max-height: 804px;
+}
+
 .logo{
+    margin-left: 262.94px;
     margin-top: 124.94px;
-    padding-bottom: 60px;
+    display: block;
 }
 .text_black{
     font-weight: 900;
@@ -44,8 +51,10 @@ body{
     line-height: 72px;
     letter-spacing: -0.02em;
     text-align: left;
-    position: relative;
-    z-index: 2;
+    margin-left: 262px;
+    margin-top: 62.12px;
+    z-index: 1;
+    display: inline-block;
 }
 .text_medium{
     font-size: 24px;
@@ -53,40 +62,41 @@ body{
     line-height: 31px;
     letter-spacing: 0px;
     text-align: left;
-    margin-top: 31px;  
+    margin-top: 29px;  
+    margin-left: 262px;
+    white-space: nowrap;
 }
 
 .price_499{
     position: relative;
-    left: 147px;
-    bottom: 715.3px; 
+    left: 410px;
+    bottom: 32px;
     z-index: 1;
 }
 .price_3190{
     position: relative;
-    left: 100px;
-    bottom: 33.3px; 
-    bottom: 715.3px;
+    left: 362px;
+    bottom: 32px;
 }
 .OG{
-    position: relative;
-    bottom: 530px;
-    left: 80px;
-    z-index: 1;
+    margin-top: 43.84px;
 }
 .circle{
     position: relative;
-    z-index: 2;
-    bottom: 689px;
-    right: 520px;
+    z-index: 1;
+    bottom: 369.28px;
+    left: 229px;
 }
 .club_button{
     width:318px;
     height: 65px;
     padding: 24px, 48px, 24px, 48px;
     border-radius: 36px;
-    gap: 4px;
     background: #FFDE40;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px;
+    float: left;
+    border: none;
+    margin-top: 1px;
+    margin-left: 262px;
 }
