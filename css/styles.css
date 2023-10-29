@@ -61,11 +61,14 @@ body{
     padding-bottom: 80px; 
 } 
 .container1{
-    width: 253px;
+    width: 420px;
     position: relative;
+    left: 168px;
     bottom: 21px;
 }
-
+.container2{
+    width: 990px;
+}
 
 .logo{
     margin-top: 124.94px;
@@ -183,9 +186,13 @@ body{
     bottom: 1155px;
     left: 604px;
 }
-.plitka{
-    padding-bottom: 2;
-}
 .text_container{
-    width: 400px;
+    width: 416px;
+    gap: 20px;
+}
+.samokat{
+    position: relative;
+    bottom: 238px;
+    right: 110px;
+    width: 483px;
 }
