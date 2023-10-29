@@ -38,10 +38,11 @@ body{
     justify-content: center;
     /* position: relative;
     right: 10px; */
+    margin-left: 89px;
     padding-bottom: 80px; 
 }
 .wrapper_2{
-    max-width: 980px;
+    max-width: 1420px;
     width: 100%;
     max-height: 1800px;
     display: flex;
@@ -49,12 +50,22 @@ body{
     flex-wrap: wrap;
     margin-left: 262px;
 } 
+.wrapper_3{
+    max-width: 1680px;
+    width: 100%;
+    max-height: 1800px;
+    display: flex;
+    flex-basis: content;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px; 
+} 
 .container1{
     width: 253px;
-    margin-left: 178px;
     position: relative;
     bottom: 21px;
 }
+
 
 .logo{
     margin-top: 124.94px;
@@ -79,7 +90,6 @@ body{
     line-height: 56px;
     letter-spacing: -0.02em;
     text-align: left;
-    margin-left: 262px;
     /* white-space: nowrap; */
 }
 .text_24{
@@ -90,8 +100,7 @@ body{
     letter-spacing: 0px;
     text-align: left;
     margin-top: 29px;  
-    white-space: nowrap;
-    /* width: 145px; */
+    /* white-space: nowrap; */
 }
 
 .prices{
@@ -143,14 +152,40 @@ body{
 }
 
 .text_24_2{
-    /* flex-basis: 50%; */
-    margin-left: 262px;
-    width: 480px;
+    flex-basis: 900px;
+    /* margin-left: 262px; */
+    width: 438px;
+    height: 38px;
     font-family: YS_Text;
     font-size: 24px;
     font-weight: 500;
-    line-height: 31px;
+    line-height: 29px;
     letter-spacing: 0px;
     text-align: left;
-    margin-top: 29px;  
+    margin-top: 36px;  
+}
+.test{
+ width: 960px;
+ height: 1200px;
+}
+.pill{
+   position: relative;
+   bottom: 1557px;
+   left: 763px;
+}
+.geo{
+    position: relative;
+    bottom: 1100px;
+    right: 600px;
+}
+.coffe{
+    position: relative;
+    bottom: 1155px;
+    left: 604px;
+}
+.plitka{
+    padding-bottom: 2;
+}
+.text_container{
+    width: 400px;
 }
