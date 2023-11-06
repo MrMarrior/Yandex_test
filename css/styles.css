@@ -38,22 +38,22 @@ body{
     justify-content: center;
     /* position: relative;
     right: 10px; */
-    margin-left: 89px;
+    margin-left: 9vh;
     padding-bottom: 80px; 
 }
 .wrapper_2{
-    max-width: 1420px;
+    max-width: 1200px;
     width: 100%;
     max-height: 1800px;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-wrap: wrap;
-    margin-left: 262px;
+    margin: auto;
 } 
 .wrapper_3{
-    max-width: 1680px;
+    max-width: 1880px;
     width: 100%;
-    max-height: 1800px;
+    max-height: 1550px;
     display: flex;
     flex-basis: content;
     flex-wrap: wrap;
@@ -134,7 +134,9 @@ body{
     margin-top: 1px;
 }
 .icons_block{
-    flex-basis: 474px;
+    /*  475px для 1440 и ниже */
+    flex-basis: 475px;
+    padding-left: 27px;
     margin-top: 40px;
     padding-bottom: 20px
     /* width: 447px;
@@ -188,11 +190,52 @@ body{
 }
 .text_container{
     width: 416px;
-    gap: 20px;
+    position: relative;
+    bottom: 65px;
+    height: fit-content;
 }
 .samokat{
     position: relative;
     bottom: 238px;
     right: 110px;
     width: 483px;
+    height: 200px;
 }
+.text_container2{
+    width: 410px;
+    position: relative;
+    bottom: 90px;
+    right: 40px;
+    height: fit-content;
+}
+.samokat_text{
+    position: relative;
+    bottom: 95px;
+    right: 100px;
+}
+.aboniment_button{
+    position: relative;
+    top: 40px;
+    width:280px;
+    height: 65px;
+    padding: 24px, 48px, 24px, 48px;
+    border-radius: 36px;
+    background: #FFDE40;
+    font-weight: 400;
+    font-size: 24px;
+    float: left;
+    border: none;
+    margin-top: 1px;
+}
+.footer{
+    width: 900px;
+    margin: auto;
+    position: relative;
+    bottom: 48px;
+    line-height: 16px;
+    font-size: 13px;
+}
+/* .test2{
+ display: flex;
+ justify-content: center;
+} */
