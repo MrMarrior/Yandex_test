@@ -1,9 +1,13 @@
-@media (max-width: 1439px) {
+@media (max-width: 1430px) {
     .wrapper{
         flex-wrap: wrap;
+        margin: 5vh auto;
     }
     .container1{
-        width: 50vh;
+        width: 60%;
+    }
+    .container2{
+        width: 75%;
     }
 }
 @media (max-width: 991px) {
