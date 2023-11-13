@@ -26,32 +26,31 @@ body{
     /* margin-left: 61.5px; */
     /* display: flex; */
 }
-
+.main_wrapper{
+width: 100%;
+}
 .wrapper{
-    max-width: 1880px;
+    max-width: 1240px;
     width: 100%;
     max-height: 1800px;
     display: flex;
-    flex-basis: content;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
-    /* position: relative;
-    right: 10px; */
-    margin-left: 9vh;
     padding-bottom: 80px; 
+    margin: auto;
 }
 .wrapper_2{
-    max-width: 1200px;
+    max-width: 1240px;
     width: 100%;
-    max-height: 1800px;
+    max-height: 1550px;
     display: flex;
-    justify-content: center;
+    flex-basis: content;
     flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
 } 
 .wrapper_3{
-    max-width: 1660px;
+    max-width: 1240px;
     width: 100%;
     max-height: 1550px;
     display: flex;
@@ -62,24 +61,26 @@ body{
     margin: auto;
 } 
 .container1{
-    width: 420px;
+    max-width: 100%;
     position: relative;
-    left: 168px;
+    left: 11.66vw;
     bottom: 21px;
 }
 .container2{
     width: 990px;
 }
 
+
+
+
 .logo{
     margin-top: 124.94px;
 }
 .text_72{
     font-family: YS_Text;
+    font-size: calc(36px + 36 * (100vw / 1440));
     font-weight: 900;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 72px;
+    line-height: calc(36px + 36 * (100vw / 1440));
     letter-spacing: -0.02em;
     text-align: left;
     margin-top: 62.12px;
@@ -89,33 +90,33 @@ body{
 }
 .text_56{
     font-family: YS_Text;
-    font-size: 56px;
+    font-size: calc(24px + 32 * (100vw / 1440));
     font-weight: 900;
-    line-height: 56px;
+    line-height: calc(24px + 32 * (100vw / 1440));
     letter-spacing: -0.02em;
     text-align: left;
-    /* white-space: nowrap; */
 }
 .text_24{
     font-family: YS_Text;
-    font-size: 24px;
+    font-size: calc(6px + 18 * (100vw / 1440));
     font-weight: 500;
-    line-height: 31px;
+    line-height: calc(14px + 18 * (100vw / 1440));
     letter-spacing: 0px;
     text-align: left;
     margin-top: 29px;  
-    /* white-space: nowrap; */
 }
 
 .prices{
     position: relative;
     bottom: 33px;
     left: 148px;
+    max-width: 100%;
 }
 .OG{
     position: relative;
     top: 45px;
     left: 26.8px;
+    max-width: 100%;
 }
 .circle{
     position: absolute;
