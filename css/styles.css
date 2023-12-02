@@ -40,7 +40,7 @@ width: 100%;
     margin: auto;
 }
 .wrapper_2{
-    max-width: 1240px;
+    max-width: 954px;
     width: 100%;
     max-height: 1550px;
     display: flex;
@@ -69,7 +69,11 @@ width: 100%;
 .container2{
     width: 990px;
 }
-
+.text_container{
+    flex-basis: 100%;
+    margin: auto;
+    padding-left: 2vw;
+}
 
 
 
@@ -83,7 +87,7 @@ width: 100%;
     line-height: calc(36px + 36 * (100vw / 1440));
     letter-spacing: -0.02em;
     text-align: left;
-    margin-top: 62.12px;
+    margin-top: 6vh;
     z-index: 1;
     width: fit-content;
     position: relative;
@@ -190,13 +194,8 @@ width: 100%;
     bottom: 1155px;
     left: 604px;
 }
-.text_container{
-    width: 416px;
-    position: relative;
-    bottom: 65px;
-    height: fit-content;
-}
 .samokat{
+    display: none;
     position: relative;
     bottom: 238px;
     right: 110px;
